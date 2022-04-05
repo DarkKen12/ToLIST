@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    background-color: aliceblue;
+}
+.container1{
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(98 195 218);
+    border-radius :4px; 
+}
+
+
+  #text1{
+      text-align: center;
+      color: rgb(7, 7, 7);
+      font-size: 25px;
+      font-weight: bolder;
+      font-family:  'Nunito', sans-serif;;
+  }
+
+
+input[type="text"]::placeholder {  
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+} 
+
+
+.addButton{
+   width: 12%;
+   border-radius: 4px;
+   height: 25px;
+   background-color: rgb(149, 224, 224);
+   cursor: pointer;
+   color: black;
+   font-weight: bolder;
+
+}
+
+.addButton:hover{
+    background-color: white;
+    color: black;
+}
+
+ul
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul li{
+
+    border-style: outset; 
+       background-color: rgb(255, 255, 255);
+     list-style-type:none ;
+         margin: 0%;
+     padding: 0%;
+    
+     cursor: pointer;
+   position: relative;
+   padding: 12px 8px 12px 40px;
+ 
+   font-size: 18px;
+   
+   transition: 0.2s;
+ }
+
+
+ul li:nth-child(odd) {
+    background: #99ddf8;
+  }
+
+  .list-item
+
+  {
+      display: inline-block;
+  }
+
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+
+  input {
+    margin-top: 1.3px;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 1px;
+    float: left;
+    font-size: 18px;
+  }
